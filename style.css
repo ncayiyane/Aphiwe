@@ -251,10 +251,13 @@ ul
   color: var(--text-black-900); 
   padding: 5px 15px; 
 }
-.aside .nav li a.active
+.aside .nav li a:hover
 {
+    transform: scale(1.4);
     color: var(--skin-color);
+    transition: 2s;
 }
+
 .aside .nav li i 
 {
     margin-right: 15px;
